@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ANIME VERSE</title>
+
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body{
+      background-color:#000;
+      color:#fff;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .navbar{
+      background:#000;
+    }
+
+    .navbar-brand{
+      color:#ff6a00 !important;
+      font-weight:bold;
+      font-size:24px;
+    }
+
+    .nav-link{
+      color:#fff !important;
+      margin-right:15px;
+    }
+    .banner{
+  height:70vh;
+  background: url("C:/New folder/solid.jpg") center center / cover no-repeat;
+  position:relative;
+  display:flex;
+  align-items:center;
+  padding-left:50px;
+}
+
+.banner::after{
+  content:"";
+  position:absolute;
+  top:0;left:0;
+  width:100%;height:90%;
+  background:rgba(0,0,0,0.5);
+}
+
+.banner-content{
+  position:relative;
+  z-index:2;
+}
+
+
+    .banner h1{
+      font-size:48px;
+      font-weight:bold;
+    }
+
+    .btn-orange{
+      background:#ff6a00;
+      border:none;
+      padding:10px 25px;
+      font-weight:bold;
+    }
+
+    .anime-card img{
+      border-radius:10px;
+      transition:0.3s;
+    }
+
+    .anime-card img:hover{
+      transform:scale(1.08);
+    }
+
+    .section-title{
+      margin:30px 0 15px;
+      font-weight:bold;
+      font-size:24px;
+    }
+
+    footer{
+      background:#111;
+      text-align:center;
+      padding:20px;
+      margin-top:40px;
+      color:#aaa;
+    }
+  </style>
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand" href="#">ANIME VERSE</a>
+    <form class="d-flex ms-3" role="search">
+      <input class="form-control me-2" type="search" placeholder="Search anime..." aria-label="Search">
+      <button class="btn btn-orange" type="submit">Search</button>
+    </form>
+
+    <button class="navbar-toggler bg-light" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Browse</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">New</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Popular</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<section class="banner">
+  <div class="banner-content">
+    <h1>SOLDIER</h1>
+    <p>Watch the latest anime episodes in HD streaming.</p>
+    <button class="btn btn-orange">Watch Now</button>
+  </div>
+</section>
+
+<div class="container">
+
+  
+  <h2 class="section-title">Trending Now</h2>
+  <div class="row g-4">
+    <div class="col-md-3 anime-card">
+      <img src="C:\New folder\png.jpg" class="img-fluid">
+      DARKs
+    </div>
+    <div class="col-md-3 anime-card">
+      <img src="C:\New folder\p8303423_v_v13_aa.jpg" class="img-fluid">
+    </div>
+    <div class="col-md-3 anime-card">
+      <img src="C:\New folder\DHA.jpg" class="img-fluid">
+    </div>
+    <div class="col-md-3 anime-card">
+      <img src="C:\New folder\gha.jpg" class="img-fluid">
+    </div>
+  </div>
+
+  
+  <h2 class="section-title">Popular Anime</h2>
+  <div class="row g-4">
+    <div class="col-md-3 anime-card">
+      <img src="C:\New folder\doon.jpg" class="img-fluid">
+    </div>
+    <div class="col-md-3 anime-card">
+      <img src="C:\New folder\MV5BYTMwMzE1YmItNDMxZC00MTdjLTllNzMtNDFlYjJkZTkwNDlmXkEyXkFqcGc@._V1_.jpg" class="img-fluid">
+    </div>
+    <div class="col-md-3 anime-card">
+      <img src="C:\New folder\RAAZ.jpg" class="img-fluid">
+    </div>
+    <div class="col-md-3 anime-card">
+      <img src="C:\New folder\91LTgU4yDUL._AC_UF1000,1000_QL80_.jpg" class="img-fluid">
+    </div>
+  </div>
+
+</div>
+
+
+<footer>
+   2026 Anime Streaming  | MADE IN AGONY
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
